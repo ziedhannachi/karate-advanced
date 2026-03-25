@@ -112,22 +112,25 @@ Les fichiers .feature sont situés dans :
 src/test/resources/features
 
 ---
-
-## 📁 Structure du projet
-karate-api-project
-
+```
+📦 karate-api-project
 │
-├── src
-│   ├── test
-│   │   ├── java
-│   │   │   └── execution/scenarios/TestRunner.java
-│   │   └── resources
-│   │       └── features/
-│   │           └── *.feature
-│   └── karate-config.js
-├── pom.xml
-└── README.md
-
+├── 📁 src
+│   ├── 📁 test
+│   │   ├── 📁 java
+│   │   │   └── 📁 execution
+│   │   │       └── 📁 scenarios
+│   │   │           └── 🧪 TestRunner.java
+│   │   │
+│   │   └── 📁 resources
+│   │       └── 📁 features
+│   │           └── 🧾 *.feature
+│   │
+│   └── ⚙️ karate-config.js
+│
+├── 📦 pom.xml
+└── 📘 README.md
+```
 ---
 
 ## 🤝 Contribution
