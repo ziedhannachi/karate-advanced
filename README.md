@@ -112,8 +112,9 @@ Les fichiers .feature sont situés dans :
 src/test/resources/features
 
 ---
-```
 ## 📁 Structure du projet
+```
+
 📦 karate-api-project
 │
 ├── 📁 src
